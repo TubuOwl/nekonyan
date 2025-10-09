@@ -11,7 +11,7 @@ async function loadData() {
           gallery.innerHTML += `
               <div class="card" onclick="showDetail('${item.link}', '${item.title}', '${item.image}')">
                   <img src="${item.image}" 
-                       onerror="this.src='https://via.placeholder.com/180x120?text=No+Image'">
+                       onerror="this.src='https://placehold.co/180x120?text=No+Image'">
                   <div class="info">${item.title}</div>
               </div>
           `;
